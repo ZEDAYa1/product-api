@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b59407bf-68a5-40be-8932-78696e107a18" name="Changes" comment="Added Product factory and factory test.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/repository/IRepository.java" afterDir="false" />
+    <list default="true" id="b59407bf-68a5-40be-8932-78696e107a18" name="Changes" comment="Added Product repository classes.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/ZedsClothesApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/service/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/za/ac/cput/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/service/ProductServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,6 +48,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -63,10 +72,11 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="za.ac.cput.service" />
       <recent name="za.ac.cput.factory" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ProductServiceTest">
     <configuration name="ProductFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="zeds-clothes" />
       <extension name="coverage">
@@ -82,8 +92,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zeds-clothes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.ac.cput.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="za.ac.cput.service" />
+      <option name="MAIN_CLASS_NAME" value="za.ac.cput.service.ProductServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZedsClothesApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="zeds-clothes" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="za.ac.cput.ZedsClothesApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="za.ac.cput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProductServiceTest" />
+        <item itemvalue="Spring Boot.ZedsClothesApp" />
         <item itemvalue="JUnit.ProductFactoryTest" />
       </list>
     </recent_temporary>
@@ -96,7 +136,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1725641885727</updated>
-      <workItem from="1725641888360" duration="7163000" />
+      <workItem from="1725641888360" duration="18384000" />
     </task>
     <task id="LOCAL-00001" summary="Project set up.">
       <created>1725645172113</created>
@@ -112,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1725653834799</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Product repository classes.">
+      <created>1725654733818</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725654733818</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +168,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project set up." />
     <MESSAGE value="Added Product factory and factory test." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Product factory and factory test." />
+    <MESSAGE value="Added Product repository classes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Product repository classes." />
   </component>
 </project>
